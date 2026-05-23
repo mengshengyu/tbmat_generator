@@ -1,0 +1,80 @@
+{
+    "PBR_Standard": {
+        "texture_tiling": 1,
+        "albedo": {
+            "enabled": true,
+            "texture": "_BC",
+            "channel": "RGBA",
+            "srgb": true
+        },
+        "normal": {
+            "enabled": true,
+            "texture": "_N",
+            "channel": "RGBA",
+            "srgb": false
+        },
+        "displacement": {
+            "enabled": true,
+            "texture": "_H",
+            "channel": "RGBA",
+            "srgb": false
+        },
+        "roughness": {
+            "enabled": true,
+            "texture": "_R",
+            "channel": "RGBA",
+            "srgb": false
+        },
+        "metalness": {
+            "enabled": true,
+            "texture": "_M",
+            "channel": "RGBA",
+            "srgb": false
+        },
+        "occlusion": {
+            "enabled": true,
+            "texture": "_AO",
+            "channel": "RGBA",
+            "srgb": false
+        }
+    },
+    "RHAM": {
+        "texture_tiling": 1,
+        "albedo": {
+            "enabled": true,
+            "texture": "_BC",
+            "channel": "RGBA",
+            "srgb": true
+        },
+        "normal": {
+            "enabled": true,
+            "texture": "_N",
+            "channel": "RGBA",
+            "srgb": false
+        },
+        "displacement": {
+            "enabled": true,
+            "texture": "_RHAM",
+            "channel": "G",
+            "srgb": false
+        },
+        "roughness": {
+            "enabled": true,
+            "texture": "_RHAM",
+            "channel": "R",
+            "srgb": false
+        },
+        "metalness": {
+            "enabled": true,
+            "texture": "_RHAM",
+            "channel": "A",
+            "srgb": false
+        },
+        "occlusion": {
+            "enabled": true,
+            "texture": "_RHAM",
+            "channel": "B",
+            "srgb": false
+        }
+    }
+}
